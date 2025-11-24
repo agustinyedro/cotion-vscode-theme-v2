@@ -3,11 +3,11 @@
   "displayName": "Cotion Theme",
   "description": "A cozy dark theme inspired by the notion workspace.",
   "version": "0.0.2",
-  "publisher": "pabue",
+  "publisher": "agustinyedro",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pabueco/cotion-vscode-theme.git"
+    "url": "https://github.com/agustinyedro/cotion-vscode-theme-v2.git"
   },
   "engines": {
     "vscode": "^1.65.0"
@@ -37,11 +37,7 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "yarn build",
-    "theme:build": "node src/index.js",
     "theme:publish": "vsce publish"
   },
-  "devDependencies": {
-    "vscode-theme-composer": "git+ssh://git@gitlab.com:ex0/vs-code-theme-composer.git"
-  }
+  "devDependencies": {}
 }
